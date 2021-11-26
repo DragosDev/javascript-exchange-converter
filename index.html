@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="assets/img/convert.jpg" alt="" class="money-img"></body>
+    <img src="assets/img/coin.gif" alt="" class="money-img"></body>
     <h1>Exchange Rate Converter</h1>
     <p>Please choose the currency to get the exchange rate</p>
 
@@ -75,7 +75,8 @@
 
 <!--Swap Rate Button To Change the exchange way-->        
 <div class="swap-rate-container">
-    <button class="btn" id="rate">Swap</button>
+    <audio id='mysound'><source src="click.wav"></audio>
+    <button class="btn" onClick="playsound()" id="swap">Swap</button>
     <div class="rate" id="rate"></div>
 </div>
 
